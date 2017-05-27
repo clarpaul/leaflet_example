@@ -1,0 +1,20 @@
+---
+title: "Leaflet Example"
+author: "Paul Clark"
+date: "May 27, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Public library
+```{r mymap}
+if (!"leaflet" %in% rownames(installed.packages())) {install.packages("leaflet", repos = "https://cloud.r-project.org")}
+library(leaflet)
+leaflet() %>% addTiles() %>%
+        addMarkers(lat=37.372026, lng=-122.039143, popup="Sunnyvale Public Libary")->
+        my_map
+my_map
+```

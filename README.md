@@ -1,4 +1,9 @@
-## Welcome to GitHub Pages
+## Leaflet Example
+
+You can view the html page for this example at: https://clarpaul.github.io/leaflet_example/
+
+
+## Welcome to GitHub Pages (Boilerplate)
 
 You can use the [editor on GitHub](https://github.com/clarpaul/leaflet_example/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
